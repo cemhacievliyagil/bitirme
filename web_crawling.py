@@ -5,10 +5,12 @@ import requests as rq
 import datetime
 import urllib.request
 import csv
+from deneme import funct
+import deneme
 sections = ["https://www.haberturk.com/saglik"]
 urls = []
 yazilar = []
-yazi = ""
+bos = ""
 body_text_big = ""
 for section in sections:
         try:
@@ -22,22 +24,26 @@ for section in sections:
                 print(urlx)
                 htmlx = urllib.request.urlopen(urlx).read().decode("utf-8")
                 soupx = bs(htmlx,'lxml')
-                table = soupx.find('article',attrs={"class":"content type1"}).findAll('p')
-                external_span = soupx.find('span')
-                for x in table:
-                  yazilar.append(x.getText())
-                print(yazilar)
+                for x in soupx.find_all():
+                  if len(x.get_text(strip =True)) ==0 :
+                    x.extract()
+                table = soupx.find('article',attrs={"class":["content type1","content type1 photo-section"]}).find_all('p')
+                #external_span = soupx.find('span')
+                count =0
+                bos = ""
+                for a in table:
+                    text = a.get_text()
+                    bos+=text
+                    count+=1
+                    if(count == len(table)):
+                     yazilar.append(bos)
         except IndexError:
             break
-
-with open('quotes.txt','a') as f:
-            for i in range(len(tags)):
-                f.write(str(tags[i].encode("utf-8"))+' '+str(tags[i].encode("utf-8"))+'\n')
-urldata = pd.DataFrame(tags)
-
-urldata.head()
-urldata = urldata.drop_duplicates()
-urldata.to_csv('urldata.csv')
+print(len(yazilar))
+for i in yazilar:
+    #model_process(i.replace("\\",""))
+    funct(i.replace("\\",""))
+    print("-----------------------------------------------------")
             #last-minute-area
             #owl-wrapper-outer
             #gallery-container
