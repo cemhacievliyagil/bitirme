@@ -1,0 +1,142 @@
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="static/styles/result.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<title>Haber Getir</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Kategoriler</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <form action="/" method="post">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <button value="Gündem" class="nav-link btn btn-outline-success" type="submit" name="a" style="border: none;">Gündem</button>
+        </li>
+        <li class="nav-item">
+          <button value="Siyaset" class="nav-link btn btn-outline-success" type="submit" name="a" style="border: none;">Siyaset</button>
+        </li>
+        <li class="nav-item">
+          <button value="Ekonomi" class="nav-link btn btn-outline-success" type="submit" name="a" style="border: none;">Ekonomi</button>
+        </li>
+        <li class="nav-item">
+          <button value="Dünya" class="nav-link btn btn-outline-success" type="submit" name="a" style="border: none;">Dünya</button>
+        </li>
+        <li class="nav-item">
+          <button value="Magazin" class="nav-link btn btn-outline-success" type="submit" name="a" style="border: none;">Magazin</button>
+        </li>
+        <li class="nav-item">
+          <button value="Otomobil" class="nav-link btn btn-outline-success" type="submit" name="a" style="border: none;">Otomobil</button>
+        </li>
+        <li class="nav-item">
+          <button value="Teknoloji" class="nav-link btn btn-outline-success" type="submit" name="a" style="border: none;">Teknoloji</button>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+            <button style="border: none;" value="Kültür-Sanat" type="submit" class="nav-link btn btn-outline-success" name="a">Kültür-Sanat</button>
+            <button style="border: none;" type="button" class="btn btn-outline-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <button style="border: none;" value="Eğitim" class="dropdown-item" type="submit" style="border: none;" name="a">Eğitim</button>
+              <button style="border: none;" value="Bilim" class="dropdown-item" type="submit" style="border: none;" name="a">Bilim</button>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+            <button style="border: none;" value="Spor" type="submit" class="nav-link btn btn-outline-success" name="a">Spor</button>
+            <button style="border: none;" type="button" class="btn btn-outline-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <button style="border: none;" value="Futbol" class="dropdown-item" type="submit" style="border: none;" name="a">Futbol</button>
+              <button style="border: none;" value="Basketbol" class="dropdown-item" type="submit" style="border: none;" name="a">Basketbol</button>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+            <button style="border: none;" value="Yaşam" type="submit" class="nav-link btn btn-outline-success" name="a">Yaşam</button>
+            <button style="border: none;" type="button" class="btn btn-outline-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <button style="border: none;" value="Sağlık" class="dropdown-item" type="submit" style="border: none;" name="a">Sağlık</button>
+              
+            </div>
+          </div>
+        </li>
+      </ul>
+    </form>
+    </div>
+  </nav>
+
+<h2 class="text-center p-5">Haber Arama </h2>
+<form>
+<div class="form-check text-center p-1">
+  <input value="key" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+  <label class="form-check-label" for="flexRadioDefault2">
+    Anahtar Kelimeye Göre Arama
+  </label>
+  
+</div>
+<div class="form-check text-center p-1">
+  <input value="date" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+  <label class="form-check-label" for="flexRadioDefault3">
+    Tarihe Göre Arama
+  </label>
+  </form>
+</div>
+
+<div class="container d-flex justify-content-center p-3 anahtar">
+  <div style="display: none" class="row div key">
+    <div class="col-sm">
+      <form method="post">
+        <div class="form-group">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Anahtar Kelime</span>
+            </div>
+            <input name="a" type="text" class="form-control" placeholder="Ara" aria-label="Ara" aria-describedby="basic-addon1">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Ara</button>
+      </form>
+      
+    </div>
+  </div>
+</div>
+<div class="container d-flex justify-content-center">
+  <div style="display: none" class="row date div">
+     <div class='col-sm-6'>
+        <div class="form-group">
+          <form method="post" action="/update-1">
+          <input placeholder="Tarih Giriniz" name="date" class="datepicker" type="date" >
+        </div>
+        <button type="submit" class="btn btn-primary">Ara</button>
+      </form>
+     </div>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+    $('input[type="radio"]').click(function(){
+        var inputValue = $(this).attr("value");
+        var targetBox = $("." + inputValue);
+        $(".div").not(targetBox).hide();
+        $(targetBox).show('slow');
+    });
+});
+$('.datepicker').datepicker();
+</script>
+</body>
+</html>

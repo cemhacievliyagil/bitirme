@@ -1,0 +1,201 @@
+﻿.tableCss {
+    border: 0px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    zoom: .9;
+    -moz-transform: scale(.9);
+    -moz-transform-origin: 0 0;
+    font-weight:600;
+    
+}
+
+    .tableCss caption {
+        font-size: 1.5em;
+        margin: .25em 0 .75em;
+    }
+
+    .tableCss tr {
+        background: #f8f8f882;
+   /*     border: 1px solid #ddd;*/
+        padding: .35em;
+        margin: 10px;
+    }
+
+    .tableCss th, table td {
+        padding: .625em;
+        text-align: center;
+    }
+
+    .tableCss th {
+        font-size: .85em;
+        letter-spacing: .1em;
+        //text-transform: uppercase;
+        padding-bottom: 0.7%;
+    }
+
+    .tableCss td img {
+        text-align: center;
+    }
+
+
+#divTableSearch{
+    margin-bottom : 10px
+}
+
+@media screen and (max-width: 1025px) {
+    .tableCss {
+        border: 0;      
+    }
+
+        .tableCss caption {
+            font-size: 1.3em;
+        }
+
+
+
+        .tableCss thead {
+            display: none !important;
+        }
+
+        .tableCss tr {
+            border-bottom: 3px solid #ddd;
+            display: block;
+            margin-bottom: .625em;
+            border: 1px solid #ddd;
+        }
+
+        .tableCss td {
+            border-bottom: 1px solid #ddd;
+            display: block;
+            font-size: .7em;
+            text-align: right;
+            margin: 10px;            
+        }
+
+            .tableCss td:before {
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+                /*text-transform: uppercase;*/
+            }
+
+            .tableCss td:last-child {
+                border-bottom: 0;
+            }
+
+    .pb-xs-4 {
+        padding-bottom: 12px !important;
+    }
+
+
+}
+
+.tableCss thead {
+    background-color: #313e42;
+    color: #323f46;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.tableCss tfoot tr {
+    background: #f8f8f859;
+    border: 1px solid #ddd;
+    border-bottom: 3px solid #ddd;
+}
+
+.tableCss tfoot td {
+    background: #f8f8f859;
+    border: 1px solid #ddd;
+    border-bottom: 3px solid #ddd;
+}
+
+@media only screen and (max-width: 768px) {
+    .tableCss tfoot tr {
+        background: var(--white) !important;
+        border: 1px solid var(--white) !important;
+    }
+
+    .tableCss tfoot td {
+        background: var(--white) !important;
+        border: 1px solid var(--white) !important;
+    }
+}
+
+
+
+
+
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+    .pagination > li {
+        float: left;
+    }
+
+        .pagination > li > a, .pagination > li > span {
+            position: relative;
+            float: left;
+            padding: 6px 12px;
+            margin-left: -1px;
+            line-height: 1.42857143;
+            color: #337ab7;
+            text-decoration: none;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .pagination > li:first-child > a, .pagination > li:first-child > span {
+            margin-left: 0;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+
+.filterable {
+    margin-top: 15px;
+}
+
+    .filterable .panel-heading .pull-right {
+        margin-top: -20px;
+    }
+
+    .filterable .filters input[disabled] {
+        background-color: transparent;
+        border: none;
+        cursor: auto;
+        box-shadow: none;
+        padding: 0;
+        height: auto;
+    }
+
+        .filterable .filters input[disabled]::-webkit-input-placeholder {
+            color: #333;
+        }
+
+        .filterable .filters input[disabled]::-moz-placeholder {
+            color: #333;
+        }
+
+        .filterable .filters input[disabled]:-ms-input-placeholder {
+            color: #333;
+        }
+
+
+
+.filters {
+    margin: 0px !important;
+    background-color: #ced0e3;
+}
+
+
+@media screen and (min-width:1025px) {
+    #divTableSearch {
+        display: none;
+    }
+}

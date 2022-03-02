@@ -1,0 +1,33 @@
+spark = sparknlp.start()
+spark.version
+MODEL_NAME = 'turkish_ner_bert'
+documentAssembler = DocumentAssembler().setInputCol("text").setOutputCol("document")
+sentenceDetector = SentenceDetector().setInputCols(["document"]).setOutputCol("sentence")
+tokenizer = Tokenizer().setInputCols(["sentence"]).setOutputCol("token")
+embeddings = None
+public_ner = None
+if MODEL_NAME == 'turkish_ner_840B_300' :
+    embeddings = WordEmbeddingsModel.pretrained('glove_840B_300', "xx").setInputCols(["sentence", 'token']).setOutputCol("embeddings").setCaseSensitive(True)
+    public_ner = NerDLModel.pretrained('turkish_ner_840B_300', 'tr') .setInputCols(["sentence", "token", "embeddings"]) .setOutputCol("ner")
+elif MODEL_NAME == 'turkish_ner_bert' :
+    embeddings = BertEmbeddings.pretrained('bert_multi_cased', 'xx') .setInputCols(["sentence", "token"]).setOutputCol("embeddings")
+    public_ner = NerDLModel.pretrained('turkish_ner_bert', 'tr') .setInputCols(["sentence", "token", "embeddings"]) .setOutputCol("ner")
+ner_converter = NerConverter() .setInputCols(["sentence", "token", "ner"]) .setOutputCol("ner_chunk")
+nlp_pipeline = Pipeline(stages=[ documentAssembler, sentenceDetector,
+                                 tokenizer,
+                                 embeddings,
+                                 public_ner,
+                                 ner_converter
+                                 ])
+text_list = ["""İstanbul Valisi Ali Yerlikaya, kentteki yoğun kar yağışı ve buzlanma nedeniyle bir sonraki duyuruya kadar motokuryelik yapılmayacağını, motosiklet ve elektrikli scooterların kullanılmayacağını bildirdi.İstanbul Valisi Ali Yerlikaya, kentteki yoğun kar yağışı ve buzlanma nedeniyle bir sonraki duyuruya kadar motokuryelik yapılmayacağını, motosiklet ve elektrikli scooterların kullanılmayacağını bildirdi.Vali Yerlikaya, sosyal medya hesabından yaptığı açıklamada, "İstanbul’daki yoğun kar yağışı ve buzlanma nedeniyle trafik seyir ve can güvenliğini sağlamak için bir sonraki duyuruya kadar motokuryelik yapılmayacak, motosiklet ve elektrikli scooterlar kullanılmayacaktır." ifadelerini kullandı.İstanbul'da Kasım ayındaki fırtınada 15 Temmuz Şehitler Köprüsü'nde ilerlemeye çalışan moto kuryelerin görüntüsü hafızalara kazınmıştı. Görüntülerdeki kuryelere metrobüsler refakat etmişti ancak pek çok noktada hem kuryeler hem de diğer iki tekerli araç kullananlar büyük güçlük çekmişti."""]
+empty_df = spark.createDataFrame([['']]).toDF('text')
+pipeline_model = nlp_pipeline.fit(empty_df)
+df = spark.createDataFrame(pd.DataFrame({'text': text_list}))
+result = pipeline_model.transform(df)
+from sparknlp_display import NerVisualizer
+
+NerVisualizer().display(
+    result = result.collect()[0],
+    label_col = 'ner_chunk',
+    document_col = 'document'
+)

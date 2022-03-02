@@ -1,0 +1,684 @@
+a.	ad, adına
+A	Alay (askeri terim)
+AA	Anadolu Ajansı
+AB	Avrupa Birliği
+ABD	Amerika Birleşik Devletleri
+ABGS	Avrupa Birliği Genel Sekreterliği
+A-Bomb	Atom Bomb (Atom Bombası)
+ABS	Anti-Block System (Motorlu taşıtlarda fren sistemi)
+ADD	Atatürkçü Düşünce Derneği
+Adr.	Adres
+AET	Avrupa Ekonomik Topluluğu
+AFP	Agence France Presse (Fransız Basın Ajansı)
+AGİT	Avrupa Güvenlik ve İşbirliği Teşkilatı
+AGSK	Avrupa Güvenlik ve Savunma Kimliği
+agy	adı geçen yapıt, adı geçen yer
+AID	Agency for International Development (Uluslararası Kalkınma Örgütü)
+AIDS	Acquired Immune Deficiency Syndrome (Edinilmiş Bağışıklık Eksikliği Belirtisi)
+AİHM	Avrupa İnsan Hakları Mahkemesi
+AK	Avrupa Konseyi
+AKBİL	Akıllı Bilet
+AKÇT	Avrupa Kömür ve Çelik Topluluğu
+AKDTYK	Atatürk Kültür, Dil ve Tarih Yüksek Kurumu
+AKKA	Avrupa Konvansiyonel Kuvvetler Antlaşması
+AKM	Atatürk Kültür Merkezi
+AKP	Adalet ve Kalkınma Partisi
+AKPM	Avrupa Konseyi Parlamenterler Meclisi
+AKUT	Arama Kurtarma Teşkilatı
+Alb.  	Albay
+ALES	Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavı
+Alm.  	Almanca
+am  	(1) ante meridiem (öğleden önce), (2) ante mortem (ölümden önce)
+ANAP	Anavatan Partisi
+Ank.	Ankara
+AO  	Anonim Ortaklığı
+AOÇ  	Atatürk Orman Çiftliği
+AÖF	Açık Öğretim Fakültesi
+AP	(1) Associated Press (Amerikan Haberler Ajansı), (2) Adalet Partisi
+APS  	Acele Posta Servisi
+Apt.	Apartman
+Ar.  	Arapça
+Ar-Ge	Araştırma-Geliştirme
+As.	Asker, Askeri, Askerlik
+As. İz.  	Askeri İnzibat
+Asb.	 Astsubay
+ASELSAN 	Askeri Elektronik Sanayi
+ASKİ	Ankara Su ve Kanalizasyon İdaresi
+Ass.  	Asistan
+AST	Ankara Sanat Tiyatrosu
+AŞ	Anonim Şirket(i)
+AŞTİ	Ankara Şehirlerarası Terminal İşletmesi
+AT	Avrupa Topluluğu
+ATAF	Allied Tactical Air Force (Müttefik Taktik Hava Komutanlığı)
+Atgm.	Asteğmen
+ATM	Automatic Teller Machine (Otomatik Para Çekme Makinesi)
+atm.	atmosfer
+ATP	Adenozin Trifosfat (İngilizcesi "Adenosine triphosphate"dan kısaltma)
+AÜ	(1)Ankara Üniversitesi, (2) Anadolu Üniversitesi, (3) Atatürk Üniversitesi
+Av.	Avukat
+AWACS	Airborne Warning and  Control System (Hava[dan] Uyarı ve Denetim Sistemi)
+B.	(1) Bay, (2) Büyük, (3) Birlik (askeri terim)
+B. Elçi	Büyükelçi
+BAB	Batı Avrupa Birliği (Yeni adı: AB)
+BAE	Birleşik Arap Emirlikleri
+Bağ-Kur	Esnaf ve Sanatkârlar ve Diğer Bağımsız Çalışanlar Sosyal Sigortalar  Kurumu
+bak.	bakınız (bkz.)
+bas.	Baskı, basım
+BBC	British Broadcasting Corporation (İngiliz Radyo Televizyon Kurumu)
+BBP	Büyük Birlik Partisi
+BCG	Bacillus Calmette Guerin (Verem Aşısı)
+BÇG	Batı Çalışma Grubu
+BCP	Bağımsız Cumhuriyet Partisi
+Bçvş.	Başçavuş
+BDDK	Bankacılık Düzenleme ve Denetleme Kurumu
+BDT	Birleşik Devletler Topluluğu
+belgeç	Belgegeçer (faks)
+BESAM	Bilim ve Edebiyat Eseri Sahipleri Meslek Birliği
+BİO	Barış İçin Ortaklık
+BJK	Beşiktaş Jimnastik Kulübü
+bkz.	bakınız (bak.)
+Bl.  	(1) Bölük (askeri terim), (2) Blok (yapı)
+Bl. K.  	Bölük Komutanı, Bölük Komutanlığı
+BM	Birleşmiş Milletler
+Bn.	Bayan
+Bnb.	Binbaşı
+BOÜN	Boğaziçi Üniversitesi
+BOTAŞ	Boru Hatları ile Petrol Taşıma Anonim Şirketi
+böl.	bölüm
+BP	(1) British Petroleum (İngiliz Petrol Şirketi), (2) Birlik Partisi
+BŞK	Başkomutan
+Bşk.	Başkan, Başkanlık, Başkanlığı
+Bştbp.	Baştabip
+BTK	Bilgi Teknolojileri ve İletişim Kurumu
+BTP	Büyük Türkiye Partisi
+BUE	Bank of Union European (Avrupa Birliği Bankası)
+Bul.	Bulvarı
+BÜ	Bilkent Üniversitesi
+C ya da ©	Copyright (Telif hakkı[na sahip])
+c.	cilt
+c/o	Care of  (eliyle)
+Cad.	Caddesi
+CAEC	Consultative Assembly of European Council (Avrupa Konseyi Parlamenter Meclisi)
+cal.	kalori
+CAO	Civil Aviation Organisation (Uluslararası Sivil Havacılık Örgütü)
+CBD, cbd	Cash before delivery (Teslimden önce peşin ödeme)
+CD	(1) Compact Disk, (2) Corps diplomatique (Kordiplomatik: Elçiliklerle ilişkili)
+CDH	Cour Européenne des Droits de l’Homme (Avrupa İnsan Hakları Adalet Divanı)
+CE	Council of Europe (Avrupa Konseyi)
+CERP	Centre Européen des Relations Publiques (Avrupa Halkla İlişkiler Merkezi)
+CGS	Santimetre-Gram-Saniye
+CHP	Cumhuriyet Halk Partisi
+CIA	Central Intelligence Agency (Merkezi Haberalma Örgütü)
+CIF, cif	Cost, insurance, freight (Maliyet, sigorta, navlun)
+cm	santimetre
+CMUK	Ceza Muhakemeleri Usul Kanunu
+CPU	Central Processing Unit (bilgisayarda Ana İşlem Birimi)
+CRR	Cemal Reşit Rey Konser Salonu
+CS	Cumhuriyet Savcısı
+CSO	Cumhurbaşkanlığı Senfoni Orkestrası
+Cum. Başk.	Cumhurbaşkanı, Cumhurbaşkanlığı
+CV	Curriculum vitae / Özgeçmiş
+ÇAY-KUR	Çay İşletmeleri Kurumu
+ÇELİK-İŞ	Türkiye Çelik Sanayi İşçileri Sendikası
+ÇELİKSEN	Türkiye Demirçelik Sanayi İşçileri Sendikası
+Çev.	(1) Çeviri, (2) Çeviren
+ÇGD	Çağdaş Gazeteciler Derneği
+ÇHD	Çağdaş Hukukçular Derneği
+ÇİMSE-İŞ	Türkiye Çimento, Seramik,Toprak ve Cam Sanayi İşçileri Sendikası
+ÇS	Çimento Sanayi
+ÇUKOBİRLİK	Çukurova Pamuk Tarım Satış Kooperatifleri Birliği
+ÇÜ	(1) Çankaya Üniversitesi, (2) Çukurova Üniversitesi
+Çvş.	Çavuş
+ÇYDD	Çağdaş Yaşamı Destekleme Derneği
+dak.	dakika
+dam	dekametre
+DAP	Doğu Anadolu Projesi
+DCL	Doctor of Civil Law (Medeni Hukuk Doktoru)
+DÇM	Dövize Çevrilebilir Mevduat
+DD	Doctor of Divinity (İlahiyat Doktoru)
+DDK	Devlet Denetleme Kurulu
+DDS	Doctor of Dental Surgery (Diş Hekimliği Doktoru)
+DDT	Dichlorodiphenyltrichloroaethan (Tarım ilacı)
+DDY	Devlet Demir Yolları
+Der.	Derleyen
+DEÜ	Dokuz Eylül Üniversitesi
+DGS	Dikey Geçiş Sınavı
+DGSA	Devlet Güzel Sanatlar Akademisi
+DHMİ	Devlet Hava Meydanları İşletmesi
+DİE	Devlet İstatistik Enstitüsü
+dilb.	dilbilgisi
+Dipl.	Diploma(lı)
+DİSK	Devrimci İşçi Sendikaları Konfederasyonu
+DJ	Disc(o) jockey
+dl  	desilitre
+DM	Deutsche Mark (Alman Markı)
+dm	desimetre
+DMO	Devlet Malzeme Ofisi
+DNA	Dioksiribo Nükleik Asit (Genlerin temel kimyasal maddesi)
+Doç.	Doçent
+doğ.	doğumu
+DP	Demokrat Parti
+DPT	Devlet Planlama Teşkilatı
+Dr.	Doktor
+DSİ	Devlet Su İşleri
+DSP	Demokratik Sol Parti
+DT	Devlet Tiyatroları
+DTCF	Dil ve Tarih-Coğrafya Fakültesi
+DTP	Demokrat Türkiye Partisi
+DÜ	Dicle Üniversitesi
+DVD	Digital Video Disk
+DVM	Doctor of Veterinary Medicine (Veteriner Doktor)
+DW	Deutsche Welle (Alman Radyo-Televizyon Yayıncısı)
+DYP	Doğruyol Partisi
+Dz. Ataş.	Deniz Ataşesi
+Dz. HO	Deniz Harp Okulu
+Dz. K.	Deniz Komutanı/Komutanlığı
+Dz. Kuv.	Deniz Kuvvetleri
+Dz. Kuv. K.	Deniz Kuvvetleri Komutanlığı
+EAC	European Association for Cooperation (Avrupa İşbirliği Örgütü)
+EBF	Eğitim Bilimleri Fakültesi
+ECSC	European Coal and Steel Community (Avrupa Kömür ve Çelik Topluluğu)
+Ecz.	Eczacı, Eczane
+ed.	(1) editör (2) edebiyat
+EDAŞ	Elektrik Dağıtım Anonim Şirketi
+Ed. F.	Edebiyat Fakültesi
+EEG	Elektroensafalogram (Beyin Dalgaları Akımyazımı)
+EFT	Elektronik Fon Transferi
+EFTA	European Free Trade Association (Avrupa Serbest Ticaret Birliği)
+EGO	(Ankara Belediyesi) Elektrik, Gaz, Otobüs İşletmesi
+EĞİT-DER	Eğitimciler Derneği
+EIB	European Investment Bank (Avrupa Yatırım Bankası)
+EİEİ	Elektrik İşleri Etüt İdaresi
+EKG	Elektrokardiyografi
+ELSA	European Law Students' Association (Avrupa Hukuk Öğrencileri Birliği)
+EMA	European Monetary Agreement (Avrupa Para Anlaşması)
+EMG	Electromyographie (Kas Akım Yazımı)
+EMK	Elektromotor Kuvveti
+ENMG	Electroneuromyographie (Sinir-Kas Akım-yazımı)
+Ens.	Enstitü
+EPA	European Parliamentary Association (Avrupa Parlamenterler Örgütü)
+EPDK	Enerji Piyasası Düzenleme Kurulu/Kurumu
+ERASMUS	European Region Action Scheme for the Mobility of University Students (Üniversite Öğrencilerinin Hareketliliği İçin Avrupa Bölgesi Eylem Tasarısı)
+Erm.	Ermenice
+EQ	Emotional Quotient (Duygusal Katsayı)
+ES	Emekli Sandığı
+ESA	European Space Agency (Avrupa Uzay Ajansı)
+ESHOT	(İzmir Belediyesi) Elektrik, Su, Havagazı, Otobüs, Tramvay İşletmeleri
+ESOGÜ	Eskişehir Osmangazi Üniversitesi
+Euratom	European Atomic Energy Community (Avrupa Atomik Enerji Topluluğu)
+EUROFER	European Confederation of the Iron and Steel (Avrupa Demir-Çelik Konfederasyonu)
+Europol	European Police Office (Avrupa Polis Ofisi)
+EUROSPACE	European Industrial Space Study Group (Avrupa Uzay Araştırmaları Sanayi Topluluğu)
+EÜ	Ege Üniversitesi
+EÜAŞ	Elektrik Üretim AŞ
+F.	Fiyat
+Fak.	Fakülte
+Fak-Fuk-Fon	Fakir-Fukara Fonu
+FAO	Food and Agriculture Organization of the United Nations (Birleşmiş Milletler Gıda ve Tarım Örgütü)
+Far.	Farsça
+FB	Fenerbahçe
+FBI	Federal Bureau of Investigation (Federal Araştırma Bürosu)
+FDD	Floppy Disk Drive (Disket sürücüsü)
+FIBA	Fédération Internationale de Basketball  Association (Uluslararası Basketbol Federasyonu)
+FIFA	Fédération Internationale de Football  Association (Uluslararası Futbol Federasyonu)
+FILA	Fédération Internationale de Lutte Amateur (Uluslararası Amatör Güreş Federasyonu)
+FIR	Flight Information Region (Uçuş Bildirim Bölgesi)
+FİSKOBİRLİK	Fındık Tarım Satış Kooperatifleri Birliği
+fiz.	fizik
+FKB	Fizik, Kimya, Biyoloji
+FKÖ	Filistin Kurtuluş Örgütü
+FOA	Foreign Operations Administration (Dış Etkinlikler Yönetimi)
+FOB, fob	Free on board (Gemide teslim satış)
+folk.	folklor
+foto.	fotoğrafçı
+FOW, fow	Free on wagon (Vagonda teslim satış)
+Fr.	Fransızca
+ft	foot, feet  (Yaklaşık 30,5 santimetrelik ölçü)
+FÜ	Fırat Üniversitesi
+g	gram
+G	Güney
+GAP	Güneydoğu Anadolu Projesi
+GATA	Gülhane Askeri Tıp Akademisi
+GATT	General Agreement on Tariffs and Trade (Gümrük Tarifeleri ve Ticaret Anlaşması)
+GB	Gigabyte (Bilgisayarda bellek birimi)
+GDO	Genetiği Değiştirilmiş Organizmalar
+Gen.	General
+GESAM	(Türkiye) Güzel Sanat Eseri Sahipleri Meslek Birliği
+Gmr.	Gümrük
+Gn.Kur.	Genelkurmay
+GOÜ	Gazi Osmanpaşa Üniversitesi
+gön.	gönderen
+gr	gram (g)
+GS	Galatasaray
+GSM	Global  System for Mobile Communications (Mobil Cep Telefonu)
+GSMH	Gayri Safi Milli Hasıla
+GUAM	Gürcistan, Ukrayna, Azerbaycan, Moldova ülkelerine verilen ad
+GÜ	Gazi Üniversitesi
+H.	Hicri
+HA	(1) Haber Ajansı, (2) Harp Akademisi
+HABİTAT	UNCHS: Centre for Human Settlement (BM İnsan Yerleşimleri Konferansı)
+Haz	Hazırlayan
+H-Bomb	Hydrogen Bomb (Hidrojen Bombası)
+HDD  	Hard Disk Drive (Ana bellek sürücüsü)
+HF	Hukuk Fakültesi
+HIV	Human Immunodeficiency Virus (AIDS hastalığına neden olan virüs)
+hl	hektolitre
+hlk.	halk (ağzı)
+hm	hektometre
+HO	Harp Okulu
+hp	horse-power (beygirgücü)
+Hrk. Başk.	Harekât Başkanı/Başkanlığı
+Hrp. Ak.	Harp Akademisi
+Hrp. TD. Başk.	Harp Tarihi Dairesi Başkanı/Başkanlığı
+Hs. Uz.	Hesap Uzmanı
+Hst.	Hastane
+HSYK	Hakimler ve Savcılar Yüksek Kurulu
+HÜ	Hacettepe Üniversitesi
+Hv.	Hava
+Hv. Kuv.	Hava Kuvvetleri
+Hz.	(1) Hizmet (2) Hertz (3) Hazreti
+IAO	Internationale Arbeitsorganisation (Uluslararası İşçi Örgütü)
+IATA	International Air Transport Association (Uluslararası Hava Taşımacılığı Birliği)
+IBM	International Business Machines (Uluslararası İş Makineleri - Elektronik Şirketi)
+IBRD	International Bank for Reconstruction and Development (Uluslararası İmar ve Kalkınma Bankası)
+ICA	International Cooperative Alliance (Uluslararası Kooperatifler Birliği)
+ICAO	International Civil Aviation Organization (Uluslararası Sivil Havacılık Örgütü)
+ICCROM	International Centre for the Study of the Preservation and Restoration of Cultural Property
+ICJ	International Court of Justice (Uluslararası Adalet Divanı)
+ICOMOS	International Council on Monuments and Sites
+ICRC	International Committee of the Red Cross (Uluslararası Kızılhaç Komitesi)
+IDB	Islamic Development Bank (İslam Kalkınma Bankası)
+ILC	International Law Commission (Devletler Hukuku Komisyonu)
+ILO	International Labour Organization (Uluslararası Çalışma Örgütü)
+ILSA	International Law Students Association (Uluslararası Hukuk Öğrencileri Birliği)
+IMF	International Monetary Fund (Uluslararası Para Fonu)
+INS	International News Service (Uluslararası Haber Servisi)
+Interpol	International Criminal Police Organization (Uluslararası Polis Örgütü)
+IOC	International Olympic Committee (Uluslararası Olimpiyat Komitesi)
+IOM	(UN) International Organization for Migration ([BM] Uluslararası Göç Örgütü)
+IPA	International Phonetic Alphabet (Uluslararası Sesçil Abece)
+IPI	International Press Institute (Uluslararası Basın Enstitüsü)
+IPRA	International Public Relations Association (Uluslararası Halkla İlişkiler Derneği)
+IQ	Intelligence Quotient (Zekâ Katsayısı)
+IRA	Irish Republican Army (İrlanda Cumhuriyet Ordusu)
+IRO	International Refugee Organization (Uluslararası Mülteciler Örgütü)
+ISBN	International Standard Book Number (Uluslararası Standart Kitap Numarası)
+ISMN	International Standard Book Number (Uluslararası Standart Müzik Numarası)
+ISO	International Standardization Organization (Uluslararası Standartlar Örgütü)
+ISSN	International Standard Serial Number (Uluslararası Standart Süreli Yayın Numarası)
+ITI	International Theatre Institute (Uluslararası Tiyatro Enstitüsü)
+ITU	International Telecommunication Union (Uluslararası Telekomünikasyon Birliği)
+İBB	İstanbul Büyükşehir Belediyesi
+İbr.	İbranca (İbranice)
+İDO	İstanbul Deniz Otobüsleri Anonim Şirketi
+İETT	İstanbul Elektrik, Tünel, Tramvay İşletmesi
+İF	İlahiyat Fakültesi
+İGDAŞ	İstanbul Gaz Dağıtım Anonim Şirketi
+İHD	İnsan Hakları Derneği
+İHF	İstanbul Hukuk Fakültesi
+İKÖ	İslam Konferansı Örgütü
+İLESAM	(Türkiye) İlim ve Edebiyat Eserleri Meslek Birliği
+İMKB	İstanbul Menkul Kıymetler Borsası
+İmp.	İmparator, İmparatorluğu
+İng.   	İngilizce
+İÖ	İsa’dan önce
+İP	İşçi Partisi
+İrt. Sb.	İrtibat Subayı
+İS	İsa’dan sonra
+İSKİ	İstanbul Su ve Kanalizasyon İdaresi
+İSO	İstanbul Sanayi Odası
+İst.  	İstanbul
+İşl.	İşleri
+İt.	İtalyanca
+İTİCÜ	İstanbul Ticaret Üniversitesi
+İTO	İstanbul Ticaret Odası
+İTÜ	İstanbul Teknik Üniversitesi
+İÜ	İstanbul Üniversitesi
+İzm.	İzmir
+J.	Jandarma
+Jap.	Japonca
+JGK	Jandarma Genel Komutanı/Komutanlığı
+K.	(1) Kara, (2) Komutan/Komutanlığı
+K. Kuv.	Kara Kuvvetleri
+KAMUSEN	Kamu Çalışanları Sendikası
+KBB	Kulak, Burun, Boğaz
+Kd.	Kıdemli
+KDV	Katma Değer Vergisi
+KESK	Kamu Emekçileri Sendikaları Konfederasyonu
+kg	kilogram
+KGB	Komitet Gosudarstvennoi Bezopasnosti (SSCB’de, Devlet Güvenlik Komitesi)
+KHK	Kanun Hükmünde Kararname
+kHz	kilohertz
+KİT	Kamu İktisadi Teşekkülü
+KKK	Kara Kuvvetleri Komutanı/Komutanlığı
+KKTC	Kuzey Kıbrıs Türk Cumhuriyeti
+km	kilometre
+km2	kilometrekare
+KMS	Kurumlar için Merkezi Eleme Sınavı
+KOBİ	Küçük ve Orta Büyüklükteki İşletme
+KOİ	Kamu Ortaklığı İdaresi
+Kol. Şti.	Kolektif Şirket
+Kom.	Komisyon
+Kom. Şti.	Komandit Şirket
+Kor.	Kolordu
+Kora.	Koramiral
+Korg.	Korgeneral
+KPDS	Kamu Personeli Yabancı Dil Tespit Sınavı
+KPSS	Kamu Personeli Seçme Sınavı
+krş.	(1) kuruş, (2) karşılaştırınız
+KS	Kilosikl
+KSK	Karşıyaka Spor Kulübü
+KTÜ	Karadeniz Teknik Üniversitesi
+Kur.	(1) Kurmay, (2) Kurum(u)
+Kur. Bşk.	Kurmay Başkanı/Başkanlığı
+Kuv.	Kuvvet
+KÜ	Kırıkkale Üniversitesi
+kw	kilovat
+Lat.	Latince
+LCV	Lütfen Cevap Veriniz
+LYV	Lütfen Yanıt Veriniz
+LES	Lisansüstü Eğitim Giriş Sınavı
+LNG	Liquefied Natural Gas (Sıvılaştırılmış Doğal Gaz)
+LPG	Liquefied Petroleum Gas (Sıvılaştırılmış Petrol Gazı)
+LSD	LysergSäure-Diäthylamid (Bir uyuşturucu türü)
+lt.	litre
+Ltd.	Limitet
+Lv.	Levazım
+LYS	Lisans Yerleştirme Sınavı
+m	metre
+M	Milat, Miladi
+m2	metrekare
+m3	metreküp
+mad.	madde
+Mah.	(1) Mahallesi, (2) Mahkemesi
+mat.	matematik
+MB	Megabyte (Bilgisayarda bellek birimi)
+MEB	Milli Eğitim Bakanlığı
+MEGSB	Milli Eğitim, Gençlik ve Spor Bakanlığı
+mey.	meydan, meydanı
+MGK	Milli Güvenlik Kurulu
+MHP	Milliyetçi Hareket Partisi
+Mim.	Mimar, Mimarlık
+MİT	Milli İstihbarat Teşkilatı
+MKEK	Makine Kimya Endüstrisi Kurumu
+MKS	Metre, Kilogram, Saniye
+MKYK	Merkez Karar Yönetim Kurulu
+mm	milimetre
+MÖ	Milattan önce
+MP	Milli Piyango
+MPM	Milli Prodüktivite Merkezi
+MR	Magnetic Resonance (Manyetik Rezonans)
+Mrşl.	Mareşal
+MS	(1) Milattan sonra, (2) Multiple Sclerosis (Multipl Sklerosis) hastalığı
+MSB	Milli Savunma Bakanlığı
+MSÜ	Mimar Sinan Üniversitesi
+MTA	Maden Tetkik Arama Enstitüsü
+MÜ	Marmara Üniversitesi
+Müd.	Müdür, Müdürlüğü
+Müh.	Mühendis
+MÜSİAD	Müstakil Sanayiciler ve İşadamları Derneği
+NAFTA	North America Free Trade Agreement (Kuzey Amerika Serbest Ticaret Anlaşması)
+NASA	National Aeronautics and Space Administration (Amerikan Ulusal Uzay ve Havacılık Dairesi)
+NATO	North Atlantic Treaty Organization (Kuzey Atlantik Paktı Örgütü)
+NBA	National Basketball Association (Amerikan Ulusal Basketbol Ligi)
+NGO	Non-governmental Organization (Sivil Toplum Kuruluşu)
+No.	Numara
+NOTAM	Notice to Airmen (Havacılar için uyarı bildirimi)
+Nö. Amr.	Nöbetçi Amiri/Amirliği
+Nöb.	Nöbetçi
+NSB	Nitelikli Sanayi Bölgeleri
+NUTS	Nomenclature d'Unités Territoriales Statistiques (Sayımlama İçin Bölge Birimleri Sınıflaması)
+Odt.	Odyometri Teknikeri (Odyometrist)
+ODTÜ	Orta Doğu Teknik Üniversitesi
+OECD	Organization for Economic Cooperation and Development (İktisadi İşbirliği ve Kalkınma Örgütü)
+OEEC	Organization for European Economic Cooperation (Avrupa Ekonomik İşbirliği Örgütü)
+OEED	Organization for European Economic Development (Avrupa Ekonomik Kalkınma Örgütü)
+OHAL	Olağanüstü Hal
+Onb.	Onbaşı
+OPEC	Organization of Petroleum Exporting Countries (Petrol İhraç Eden Ülkeler Örgütü)
+Opr.	Operatör
+Or.	Ordu
+Or. Gn. Kh.	Ordu Genel Karargâhı
+Ora.	Oramiral
+Ord.	Ordinaryüs
+Org.	Orgeneral
+Ort.	Ortaklık
+Osm.	Osmanlıca
+oto.	otomobil
+ÖDP	Özgürlük ve Dayanışma Partisi
+Öğr.  	(1) Öğretmen, (2) Öğretim, (3) Öğrenci
+ÖİB	Özelleştirme İdaresi Başkanlığı
+ölm.	ölümü
+örn.	örnek, örneğin
+ÖSS	Öğrenci Seçme Sınavı
+ÖSYM	Öğrenci Seçme ve Yerleştirme Merkezi
+ÖTV	Özel Tüketim Vergisi
+ÖYK	Özelleştirme Yüksek Kurulu
+ÖYS	Öğrenci Yerleştirme Sınavı
+P	Park
+pm	post meridiem (öğleden sonra)
+PEN	International Club of Poets, Playwrights, Editors, Essayists and Novelists (Uluslararası Yazarlar Kulübü)
+PETKİM	Petrokimya Endüstrisi
+PH	asitlik derecesi
+PhD	Doctor of Philosophy (Doktorluk Derecesi)
+PK	Posta Kutusu
+Plt.	Pilot
+POAŞ	Petrol Ofisi Anonim Şirketi
+Por.	Portekizce
+PP	Postage Paid (Mektuplarda pulun olması gereken yerde, posta ücreti gönderen tarafından önceden ödenmiştir anlamında)
+PR	Public Relations (Halkla İlişkiler)
+Prof.	Profesör
+PTT	Posta, Telgraf, Telefon
+PVC	Polivinil klorür (İngilizcesi "Polyvinyl chloride"den kısaltma)
+R ya da ®	Registered (Onaylanmış, telif hakkı alınmış)
+RAM	Random Access Memory (Bilgisayarda okunabilir ve yazılabilir bellek)
+RC	Red Cross (Kızılhaç Örgütü)
+RG	Resmi Gazete
+RNA	Ribonükleik Asit
+ROM	Read-Only Memory (Bilgisayarda yalnızca okunabilir bellek)
+RTÜK	Radyo Televizyon Üst Kurulu
+Rus.	Rusça
+RYD	Reklam Yazarları Derneği
+s.	(1) sayfa, (2) sayı
+sa.	saat
+SALT	Strategic Arms Limitation Talks (Stratejik Silahların Sınırlandırılması Görüşmeleri)
+SAS	Sualtı Savunma (Komandoları)
+SAT	Sualtı Taarruz (Komandoları)
+sat.	satır
+Sb.	Subay
+SBF	Siyasal Bilgiler Fakültesi
+SCOPE	Scientific Committee on Problems of the Environment (Çevre Sorunları Bilimsel Ko-mitesi)
+SEA	Single European Act (Avrupa Tek Senedi)
+SEK	Süt Endüstrisi Kurumu
+SEKA	Selüloz ve Kâğıt Sanayii Kurumu
+SES-DER	Seslendirme Sanatçıları Derneği
+SHÇEK	Sosyal Hizmetler Çocuk Esirgeme Kurumu
+SHP	Sosyal Demokrat Halkçı Parti
+SIU	Systeme Internationale d’Unites (Uluslararası Birimler Dizgesi)
+SKT	Son kullanma tarihi
+sm	santimetre
+sn	saniye
+Sn.	Sayın
+SODER	Sinema Oyuncuları Derneği
+Sok.	Sokağı, sokak
+SOS	Save Our Souls (Yardım çağrısı)
+SPK	Sermaye Piyasası Kurulu
+Sr.	(1) Seri, (2) Sıra
+SSCB	Sovyet Sosyalist Cumhuriyetler Birliği
+SSK	Sosyal Sigortalar Kurumu
+STK	Sivil Toplum Kuruluşu
+süt.	sütun
+Şb.	Şube, Şubesi
+Şrt.	Şirket, Şirketi
+Şti.	Şirket, Şirketi
+TAA	Turkish-American Association (Türk-Amerikan Kültür Derneği)
+TAI	Turkish Aerospace Industry (Türk Havacılık Sanayii)
+TAO	Türk Anonim Ortaklığı
+TAPDK	Tütün ve Alkol Piyasası Düzenleme Kurumu
+TARİŞ	Tarım Satış Kooperatifleri Birliği
+TAŞ	Türk Anonim Şirketi
+Tb.	Tabur
+TBA	Turco-British Association (Türk-İngiliz Kültür Derneği)
+TBB	(1) Türkiye Barolar Birliği, (2) Türkiye Bankalar Birliği
+TBL	Türkiye Basketbol Ligi
+TBMM	Türkiye Büyük Millet Meclisi
+Tbp.	Tabip
+TC	Türkiye Cumhuriyeti
+TCCB	Türkiye Cumhuriyeti Cumhurbaşkanlığı
+TCDD	Türkiye Cumhuriyeti Devlet Demiryolları
+TCK	(1) Türkiye Cumhuriyeti Karayolları, (2) Türk Ceza Kanunu
+TCMB	Türkiye Cumhuriyet Merkez Bankası AŞ
+TCTİ	Türkiye Cumhuriyeti Tekel İdaresi
+TÇEK	Türkiye Çocuk Esirgeme Kurumu
+TÇEV	Türkiye Çocuk Esirgeme Vakfı
+TDK	Türk Dil Kurumu
+TEAŞ	Türkiye Elektrik Üretim, İletim Anonim Şirketi
+TED	Türk Eğitim Derneği
+TEDAŞ	Türkiye Elektrik Dağıtım AŞ
+TEFE	Toptan Eşya Fiyat Endeksi
+TEİAŞ	Türkiye Elektrik İletim AŞ
+TEK	Türkiye Elektrik Kurumu
+Tel.	Telefon
+Telg.	Telgraf
+TELEKOM	Türk Telekomünikasyon Anonim Şirketi
+TEM	Trans European Motor Way (Avrupa Transit Karayolu)
+TEMA	Türkiye Erozyonla Mücadele, Ağaçlandırma, Doğal Varlıkları Koruma Vakfı
+TESK	Türkiye Esnaf ve Sanatkarlar Konfederasyonu
+TEV	Türk Eğitim Vakfı
+TF	Tıp Fakültesi
+TGC	Türkiye Gazeteciler Cemiyeti
+TGS	Türkiye Gazeteciler Sendikası
+Tğm.	Teğmen
+THA	Türk Haberler Ajansı
+THK	(1) Türk Hava Kurumu, (2) Türk Hukuk Kurumu
+THY	Türk Hava Yolları
+TIR	Transports Internationaux Routiers (Uluslararası Karayolu Taşımacılığı)
+Tic.	(1)Ticaret, (2) Ticarethane
+TİHV	Türkiye İnsan Hakları Vakfı
+TİP	Türkiye İşçi Partisi
+TİSK	Türkiye İşverenler Sendikası
+tiy.	tiyatro
+TKB	Türk Kadınlar Birliği
+TKİ	Türkiye Kömür İşletmeleri
+TKP	Türkiye Komünist Partisi
+TL	Türk Lirası
+TM	(1) Türk Malı, (2) Trademark (Onaylanmış Marka)
+TMK	Türk Medeni Kanunu
+TMMOB	Türk Mühendis ve Mimar Odaları Birliği
+TMO	Toprak Mahsulleri Ofisi
+TMSF	Tasarruf Mevduatı Sigorta Fonu
+TNT	Trinitrotolüen (Patlayıcı)
+TOBB	Türkiye Odalar ve Borsalar Birliği
+TODAİE	Türkiye ve Orta Doğu Amme İdaresi Enstitüsü
+TOEFL	Test of English As a Foreign Language (Yabancı Dil Olarak İngilizce Testi)
+TOKİ	Toplu Konut İdaresi
+Top.	Topçu
+TÖMER	Türkçe Öğretim Merkezi
+TP	Türkiye Petrolleri
+TPAO	Türkiye Petrolleri Anonim Ortaklığı
+TRT	Türkiye Radyo Televizyon Kurumu
+TS	Trabzonspor
+TSE	Türk Standartları Enstitüsü (Damgası)
+TSEK	Türk Standartları Enstitüsü Kurumu
+TSİP	Türkiye Sosyalist İşçi Partisi
+TSK	Türk Silahlı Kuvvetleri
+TSKB	Türkiye Sınai Kalkınma Bankası
+TSKGV	Türk Silahlı Kuvvetlerini Güçlendirme Vakfı
+TTB	Türk Tabipler Birliği
+TTK	Türk Tarih Kurumu
+Tug.	Tugay
+Tuğa.	Tuğamiral
+Tuğg.	Tuğgeneral
+TUS	Tıpta Uzmanlık Sınavı
+TUSEK	Turizm Sektör Konseyi
+TÜ	Trakya Üniversitesi
+TÜBA	Türkiye Bilimler Akademisi
+TÜBİTAK	Türkiye Bilimsel ve Teknik Araştırma Kurumu
+TÜFE	Tüketici Fiyat Endeksi
+TÜİK	Türkiye İstatistik Kurumu
+Tüm.	Tümen
+Tüma.	Tümamiral
+Tümg.	Tümgeneral
+TÜRK-İŞ	Türkiye İşçi Sendikaları Konfederasyonu
+TÜRKSAT	Turkish Satellite (Türk Uydusu)
+TÜSİAD	Türkiye Sanayicileri ve İşadamları Derneği
+TÜTAV	Türk Tanıtma Vakfı
+TV	Televizyon
+TYMB	Türkiye Yüksek Mühendisler Birliği
+TYS	Türkiye Yazarlar Sendikası
+UEFA	Union of European Football Associations (Avrupa Futbol Federasyonları Birliği)
+UFO	Unidentified Flying Object (Tanımlanmamış Uçan Nesne)
+UHF	Ultra High Frequency (Yüksek Frekans)
+ui.	uluslararası ilişkiler (Siyasetbilimi yazınında uluslararası ilişkiler için kullanılan kısaltma)
+UK	United Kingdom (Birleşik Krallık)
+um:ag	Uğur Mumcu Araştırmacı Gazetecilik Vakfı
+UN	United Nations (Birleşmiş Milletler)
+UNCTAD	UN Conference on Trade and Development (BM Ticaret ve Kalkınma Konferansı)
+UNDCP	UN International Drug Control Programme (BM Uluslararası Uyuşturucu Kontrol Programı)
+UNDP	UN Development Programme (BM Kalkınma Programı)
+UNEO	UN Emergency Operations (BM İvedi İşler)
+UNEP	UN Environment Programme (BM Çevre Programı)
+UNESCO	United Nations Educational, Scientific and Cultural Organization (Birleşmiş Milletler Eğitim, Bilim ve Kültür Örgütü)
+UNFPA	UN Population Fund (BM Nüfus Fonu)
+UNHCR	Office of the UN High Commissioner for Refugees (BM Mülteciler Yüksek Komiserliği)
+UNIC	UN Information Centre (BM Enformasyon Merkezi)
+UNICEF	United Nations International Children’s Emergency Fund (Birleşmiş Milletler Uluslararası Çocuklara Acil Yardım Fonu)
+UNIDO	UN Industrial Development Organisation (BM Sınai Kalkınma Örgütü)
+UNITAR	UN Institute for Training and Research (BM Eğitim ve Araştırma Enstitüsü)
+UNRISO	UN Research Institute for Social Development (BM Sosyal Kalkınma Araştırmaları Enstitüsü)
+UP	United Press (Amerikan Haberler Ajansı)
+UPI	United Press International (Uluslararası Basın birliği)
+UPU	Union Postale Universelle (Uluslararası Posta Birliği)
+US	United States (Birleşik Devletler)
+USA	(1) United States of Amerika (Amerika Birleşik Devletleri), (2) United States Army (Birleşik Devletler Ordusu)
+USIS	United States Information Service (Amerikan Haberler Merkezi)
+UÜ	Uludağ Üniversitesi
+UV	Ultraviolet (Morötesi)
+Uz. J.	Uzatmalı Jandarma
+Uzm.	Uzman
+Üçvş.	Üstçavuş
+ÜDS	Üniversitelerarası Kurul Yabancı Dil Sınavı
+Üni.	Üniversitesi
+ÜT	Üretim tarihi
+Ütğm.	Üsteğmen, Üsteğmenlik
+vb.	ve benzeri, ve bunun gibi, ve başkaları
+VCD	Video Compact Disc
+VDMK	Varlığa Dayalı Menkul Kıymetler
+Vet.	Veteriner
+VHF	Very  High Frequency (Çok Yüksek Frekans)
+VIP	Very Important Person (Çok Önemli Kişi)
+VJ	Video jockey
+vö.	ve öbürleri, ve ötesi
+vs.	vesaire
+WAP	Wireless Application Protocol (Kablosuz Uygulama Protokolu, internet sistemine kablosuz erişim)
+WB	World Bank (Dünya Bankası)
+WB	World Bank (Dünya Bankası)
+WC	Water Closet (Tuvalet, ayakyolu)
+WHO	World Health Organization (Dünya Sağlık Örgütü)
+WMO	World Meteorological Organization (Uluslararası Meteoroloji Örgütü)
+WTO	World Trade Organization (Dünya Ticaret Örgütü)
+WWF	World Wildlife Fund (Dünya Doğal Yaşamı Koruma Fonu)
+Y. Müh.	Yüksek Mühendis
+Yard.	Yardımcı
+Yard. Doç.	Yardımcı Doçent
+YAŞ	Yüksek Askeri Şûra
+Yay.	(1) Yayınları, (2)Yayımlayan, (3)Yayınevi
+yay. haz.	yayıma hazırlayan
+Yay-Kur	Yaygın Yükseköğretim Kurumu
+Yd.	Yedek
+Yd. Sb.	Yedek Subay
+YDK	Yüksek Denetleme Kurulu
+YDS	Yabancı Dil Sınavı
+YÖK	Yükseköğretim Kurulu
+YGS	Yükseköğretime Geçiş Sınavı
+YÖS	Yabancı Uyruklu Öğrenci Sınavı
+YPK	Yüksek Planlama Kurulu
+Yrb.	Yarbay
+YSE	Yol, Su, Elektrik Genel Müdürlüğü
+YTÜ	Yıldız Teknik Üniversitesi
+Yun.	Yunanca
+YURTKUR	Yükseköğrenim Kredi ve Yurtlar Kurumu
+yy.	yüzyıl
+Yzb.	Yüzbaşı
+ZF	Ziraat Fakültesi
+00	Tuvalet
