@@ -15,10 +15,10 @@ from transformers import pipeline, AutoModelForTokenClassification, AutoTokenize
 import os
 os.environ["JAVA_HOME"] = "D:\Java\jdk-15.0.1"
 #nltk.download('punkt')
-words = []
 stop = []
 analyzer = MorphAnalyzer()
 def run_examples(text):
+ words = []
  with open('turkce-stop-words.txt','r', encoding='utf-8') as file:  
     stop = [line.strip() for line in file]
  dizix = []

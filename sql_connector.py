@@ -55,9 +55,6 @@ def keyEkle():
                 result = deneme.funct(metin)
                 sql = """ UPDATE news_keys SET key1=%s, key2=%s, key3=%s, key4=%s, key5=%s, key6=%s, key7=%s, key8=%s WHERE link = %s """
                 val = (result[0], result[1], result[2], result[3],result[4],result[5], result[6], result[7], row[1])
-                f = open('news.txt', 'r+')
-                f.truncate(0)
-                f.close()
                 #print("KEYWORDLER")
             cursor.execute(sql,val)
             cnx.commit()    

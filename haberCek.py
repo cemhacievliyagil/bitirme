@@ -7,7 +7,7 @@ from Haber.milli import Milliyet
 from Haber.posta import Posta
 from Haber.sozcu import Sozcu
 from Haber.webtekno import Webtekno
-from sql_connector import dbyeYaz
+from sql_connector import dbyeYaz, deleteSameLink, keyEkle
 import datetime
 
 def deleteSame():
@@ -26,5 +26,7 @@ def haberCek():
     Posta()
     deleteSame()
     dbyeYaz()
+    keyEkle()
+    deleteSameLink()
 
 haberCek()

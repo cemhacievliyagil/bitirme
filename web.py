@@ -180,5 +180,37 @@ def dates_news():
     return render_template('result3.html',data = data,show = goster,bugun = bugun,dun = dun)
 
 
+
+@app.route('/rapor', methods =["GET","POST"])
+def rapor():
+    num = request.form['rapor']
+
+
+    cnx = mysql.connector.connect(
+    user='root',
+    password='',
+    host='localhost',
+    database='mysql')
+    cursor = cnx.cursor()
+
+    
+    
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Sözcü" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    res1=cursor.fetchall()
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Hürriyet" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    res2 = cursor.fetchall()
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Milliyet" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    res3 = cursor.fetchall()
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Habertürk" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    res4 = cursor.fetchall()
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Posta" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    res5 = cursor.fetchall()
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Webtekno" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    res6 = cursor.fetchall()
+    cursor.execute("""SELECT site as Haber_Kaynağı, COUNT(*) AS Haber_Miktarı FROM news_keys WHERE tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) GROUP BY site;""")
+    res7 = cursor.fetchall()
+    return render_template('rapor.html',res1 = res1,res2 = res2,res3 = res3,res4 = res4,res5 = res5,res6 = res6,res7=res7)
+
+
 if __name__ == "__main__":
     app.run()

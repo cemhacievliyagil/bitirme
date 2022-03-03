@@ -12,8 +12,8 @@ import lemmatizer
 #-*- coding: utf-8 -*-
 time.sleep(3)
 #stemmer = TurkishStemmer()
-with open('news.txt', encoding='utf-8') as text_file:
-        doc1 = text_file.read()
+"""with open('news.txt', encoding='utf-8') as text_file:
+        doc1 = text_file.read()"""
 n_gram_range = (2, 2)
 stop = []
 """with open('turkce-stop-words.txt', encoding='utf-8') as file:  
@@ -39,6 +39,7 @@ def funct(doc1):
  #candidates = count.get_feature_names_out()
  #analyzer = MorphAnalyzer()
 #print(candidates)
+ candidates = []
  candidates = lemmatizer.run_examples(doc1) 
  #print(candidates)
  for i in lemmatizer.extract_specials(doc1):
@@ -46,6 +47,8 @@ def funct(doc1):
  candidates = list(dict.fromkeys(candidates))
  wordset = set(candidates)
  candidates = [item for item in wordset if item.istitle() or item.title() not in wordset]
+ print(doc1)
+ print("----------------------------------------------------------------------------")
  print("ADAYLAR: ")
  print(candidates)
 
@@ -62,4 +65,4 @@ def funct(doc1):
     print((i))
  return keywordsx
 #doc2 = modelprocess(doc1)
-funct(doc1)
+#funct(doc1)
