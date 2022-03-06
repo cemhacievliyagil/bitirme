@@ -7,6 +7,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="static/styles/result.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery.fancytable/dist/fancyTable.min.js"></script>
+<script src="../static/fancyTable.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -81,6 +83,21 @@
       </ul>
     </form>
     </div>
+    <ul class="nav navbar-nav me-auto">
+      <li class="nav-item">
+      <div class="btn-group float-right">
+        <form method="post" action="/rapor">
+        <button value="Rapor" class="nav-link btn btn-outline-success float-right" type="submit" name="rapor" style="border: none;">Haftalık Rapor</button>
+      </form>
+      <form method="post" action="/rapor1">
+        <button value="Rapor" class="nav-link btn btn-outline-success float-right" type="submit" name="rapor" style="border: none;">Aylık Rapor</button>
+      </form>
+      <form method="post" action="/rapor2">
+        <button value="Rapor" class="nav-link btn btn-outline-success float-right" type="submit" name="rapor" style="border: none;">Özel Rapor</button>
+      </form>
+      </div>
+    </li>
+    </ul>
   </nav>
     <div class="float-right p-1">
         <h2 class="text-center">Haber Arama </h2>
@@ -103,7 +120,7 @@
           <div class="container d-flex justify-content-center p-3 anahtar">
             <div style="display: none" class="row div key">
               <div class="col-sm">
-                <form method="post">
+                <form method="post" action="/">
                   <div class="form-group">
                     <div class="input-group mb-3">
                       <div class="input-group-prepend">
@@ -139,13 +156,16 @@
           
            
             
-            <table class="table">
+            <table class="table table fancyTable tableCss table-hover">
+              <thead>
               <tr>
                 {% if show %}
               </tr>
+            </thead>
               {% endif %}
               {% for item in data %}
-              {% if (item[5] == bugun) %}
+            
+            <tbody id="tableBody">
               <tr>
                 {% if show %}
                 <td>{{item[5]}}</td>
@@ -170,75 +190,9 @@
                   {% endif %}
                   <td>{{item[4]}}</td>
               </tr>
-              {% endif %}
               {% endfor %}    
+            </tbody>
           </table>
-          {% if show %}
-          {% endif %}
-          <table class="table">
-            {% for item in data %}
-            {% if (item[5] == dun) %}
-            <tr>
-              {% if show %}
-              <td>{{item[5]}}</td>
-              {% if (item[1] == "Sözcü") %}
-              <td><a href="{{item[2]}}"><img src="static/sözcü.jpg" style="width:42px;height:42px;"></a></td>
-              {% endif %}
-              {% if (item[1] == "Hürriyet") %}
-              <td><a href="{{item[2]}}"><img src="static/hürriyet.jpg" style="width:42px;height:42px;"></a></td>
-              {% endif %}
-              {% if (item[1] == "Milliyet") %}
-              <td><a href="{{item[2]}}"><img src="static/milliyet.jpg" style="width:42px;height:42px;"></a></td>
-              {% endif %}
-              {% if (item[1] == "Habertürk") %}
-              <td><a href="{{item[2]}}"><img src="static/habertürk.jpg" style="width:42px;height:42px;"></a></td>
-              {% endif %}
-              {% if (item[1] == "Posta") %}
-              <td><a href="{{item[2]}}"><img src="static/posta.jpg" style="width:42px;height:42px;"></a></td>
-              {% endif %}
-              {% if (item[1] == "Webtekno") %}
-              <td><a href="{{item[2]}}"><img src="static/webtekno.jpg" style="width:42px;height:42px;"></a></td>
-              {% endif %}
-                {% endif %}
-                <td>{{item[4]}}</td>
-            </tr>
-            {% endif %}
-            {% endfor %}    
-        </table>
-        {% if show %} 
-    {% endif %}   
-    <table class="table">
-    {% for item in data %}
-    {% if (item[5] != bugun ) %}
-    {% if (item[5] != dun ) %}
-    <tr>
-      {% if show %}
-      <td>{{item[5]}}</td>
-      {% if (item[1] == "Sözcü") %}
-      <td><a href="{{item[2]}}"><img src="static/sözcü.jpg" style="width:42px;height:42px;"></a></td>
-      {% endif %}
-      {% if (item[1] == "Hürriyet") %}
-      <td><a href="{{item[2]}}"><img src="static/hürriyet.jpg" style="width:42px;height:42px;"></a></td>
-      {% endif %}
-      {% if (item[1] == "Milliyet") %}
-      <td><a href="{{item[2]}}"><img src="static/milliyet.jpg" style="width:42px;height:42px;"></a></td>
-      {% endif %}
-      {% if (item[1] == "Habertürk") %}
-      <td><a href="{{item[2]}}"><img src="static/habertürk.jpg" style="width:42px;height:42px;"></a></td>
-      {% endif %}
-      {% if (item[1] == "Posta") %}
-      <td><a href="{{item[2]}}"><img src="static/posta.jpg" style="width:42px;height:42px;"></a></td>
-      {% endif %}
-      {% if (item[1] == "Webtekno") %}
-      <td><a href="{{item[2]}}"><img src="static/webtekno.jpg" style="width:42px;height:42px;"></a></td>
-      {% endif %}
-        {% endif %}
-        <td>{{item[4]}}</td>
-    </tr>
-    {% endif %}
-    {% endif %}
-    {% endfor %}    
-</table>
     </div>
     </div>
     <script>
@@ -267,7 +221,11 @@ function check(input)
     		input.checked = true;
     	}	
     }
-
+    $(".fancyTable").fancyTable({
+        pagination: true,
+        perPage: 20,
+        globalSearch: true,
+    });
 
 
 
@@ -309,7 +267,7 @@ function check(input)
              $(targetBox).show('slow');
          });
      });
-     $('.datepicker').datepicker();
+     
      </script>
 </body>
 </html>

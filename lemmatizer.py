@@ -59,8 +59,12 @@ for a in resultx:
 punc = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
 
 def extract_specials(stringx):
- model = AutoModelForTokenClassification.from_pretrained("savasy/bert-base-turkish-ner-cased")
- tokenizer = AutoTokenizer.from_pretrained("savasy/bert-base-turkish-ner-cased")
+ #model = AutoModelForTokenClassification.from_pretrained("savasy/bert-base-turkish-ner-cased")
+ #tokenizer = AutoTokenizer.from_pretrained("savasy/bert-base-turkish-ner-cased")
+ model = AutoModelForTokenClassification.from_pretrained('./saved_model')
+ tokenizer = AutoTokenizer.from_pretrained('./saved_model')
+ model.save_pretrained('./saved_model')
+ tokenizer._save_pretrained('./saved_model')
  ner=pipeline('ner', model=model, tokenizer=tokenizer)
  #stringx = ("""İstanbul Valisi Ali Yerlikaya, kentteki yoğun kar yağışı ve buzlanma nedeniyle bir sonraki duyuruya kadar motokuryelik yapılmayacağını, motosiklet ve elektrikli scooterların kullanılmayacağını bildirdi.İstanbul Valisi Ali Yerlikaya, kentteki yoğun kar yağışı ve buzlanma nedeniyle bir sonraki duyuruya kadar motokuryelik yapılmayacağını, motosiklet ve elektrikli scooterların kullanılmayacağını bildirdi.Vali Yerlikaya, sosyal medya hesabından yaptığı açıklamada, "İstanbul’daki yoğun kar yağışı ve buzlanma nedeniyle trafik seyir ve can güvenliğini sağlamak için bir sonraki duyuruya kadar motokuryelik yapılmayacak, motosiklet ve elektrikli scooterlar kullanılmayacaktır." ifadelerini kullandı.İstanbul'da Kasım ayındaki fırtınada 15 Temmuz Şehitler Köprüsü'nde ilerlemeye çalışan moto kuryelerin görüntüsü hafızalara kazınmıştı. Görüntülerdeki kuryelere metrobüsler refakat etmişti ancak pek çok noktada hem kuryeler hem de diğer iki tekerli araç kullananlar büyük güçlük çekmişti. """)
  ner_list = ner(stringx)

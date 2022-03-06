@@ -83,7 +83,12 @@
           <div class="btn-group float-right">
             <form method="post" action="/rapor">
             <button value="Rapor" class="nav-link btn btn-outline-success float-right" type="submit" name="rapor" style="border: none;">Haftalık Rapor</button>
+          </form>
+          <form method="post" action="/rapor1">
             <button value="Rapor" class="nav-link btn btn-outline-success float-right" type="submit" name="rapor" style="border: none;">Aylık Rapor</button>
+          </form>
+          <form method="post" action="/rapor2">
+            <button value="Rapor" class="nav-link btn btn-outline-success float-right" type="submit" name="rapor" style="border: none;">Özel Rapor</button>
           </form>
           </div>
         </li>
@@ -92,8 +97,8 @@
 
 <h2 class="text-center p-5">Haber Arama </h2>
 <form>
-<div class="form-check text-center p-1">
-  <input value="key" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+<div style="display: none;" class="form-check text-center p-1 keyx">
+  <input value="key" class="form-check-input key" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
   <label class="form-check-label" for="flexRadioDefault2">
     Anahtar Kelimeye Göre Arama
   </label>
@@ -107,9 +112,9 @@
   </form>
 </div>
 
-<div class="container d-flex justify-content-center p-3 anahtar">
-  <div style="display: none" class="row div key">
-    <div class="col-sm">
+<div class="container d-flex justify-content-center p-3 anahtar div">
+  <div class="row key div">
+    <div class="col-sm text-center">
       <form method="post">
         <div class="form-group">
           <div class="input-group mb-3">
@@ -119,9 +124,8 @@
             <input name="a" type="text" class="form-control" placeholder="Ara" aria-label="Ara" aria-describedby="basic-addon1">
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">Ara</button>
+        <button type="submit" class="btn btn-primary ">Ara</button>
       </form>
-      
     </div>
   </div>
 </div>
@@ -141,12 +145,14 @@
 $(document).ready(function(){
     $('input[type="radio"]').click(function(){
         var inputValue = $(this).attr("value");
+        console.log(inputValue)
         var targetBox = $("." + inputValue);
+        var targetBox1 = $(".keyx")
         $(".div").not(targetBox).hide();
         $(targetBox).show('slow');
+        $(targetBox1).show('slow');
     });
 });
-$('.datepicker').datepicker();
 </script>
 </body>
 </html>

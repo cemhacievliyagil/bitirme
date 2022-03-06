@@ -46,6 +46,9 @@ def my_form_post():
     if (numInt.capitalize() in kategoriler):
         cursor.execute("SELECT * FROM news_keys WHERE kategori = %s ", (numInt,))
         data = sorted(cursor.fetchall(),key=lambda x: x[5],reverse=True)
+        data = list(map(list,data))
+        for y in data:
+          y[5] = tarihal(str(y[5]))
         goster = 1
         try:
          result = calculate_it(numInt.lower())
@@ -62,6 +65,9 @@ def my_form_post():
       cursor.execute("SELECT * FROM news_keys WHERE key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s OR key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s",(numInt,numInt,numInt,numInt,numInt,numInt.title(),numInt.title(),numInt.title(),numInt.title(),numInt.title()))
       goster = 1
       data = sorted(cursor.fetchall(),key=lambda x: x[5],reverse=True)
+      data = list(map(list,data))
+      for y in data:
+        y[5] = tarihal(str(y[5]))
       try:
        result = calculate_it(numInt.lower())
       except KeyError:
@@ -104,6 +110,10 @@ def onerilen_ara():
     if (numInt.capitalize() in kategoriler):
         cursor.execute("SELECT * FROM news_keys WHERE kategori = %s ", (numInt,))
         data = cursor.fetchall()
+        data = sorted(cursor.fetchall(),key=lambda x: x[5],reverse=True)
+        data = list(map(list,data))
+        for y in data:
+          y[5] = tarihal(str(y[5]))
         goster = 1
         try:
          result = calculate_it(numInt.lower())
@@ -120,7 +130,10 @@ def onerilen_ara():
       cursor.execute("SELECT * FROM news_keys WHERE key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s OR key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s",(numInt,numInt,numInt,numInt,numInt,numInt.title(),numInt.title(),numInt.title(),numInt.title(),numInt.title()))
       goster = 1
       data = cursor.fetchall()
-
+      data = sorted(cursor.fetchall(),key=lambda x: x[5],reverse=True)
+      data = list(map(list,data))
+      for y in data:
+          y[5] = tarihal(str(y[5]))
       
       try:
        result = calculate_it(numInt)
@@ -141,13 +154,14 @@ def onerilen_ara():
 @app.route('/update-1', methods =["GET","POST"])
 def dates_news():
     num = request.form['date']
+    numInt = num
     goster= 0
     numInt1 = ""
-    try:
-        numInt = str(datetime.strptime(num, "%Y-%m-%d").strftime("%d-%m-%Y"))
-    except ValueError:
-        numInt = ""
-    print(numInt)
+    #try:
+        #numInt = str(datetime.strptime(num, "%Y-%m-%d").strftime("%d-%m-%Y"))
+    #except ValueError:
+     #   numInt = ""
+    #print(numInt)
     b = (datetime.now().strftime('%d-%m-%Y'))
     bugun = str(b)
     d = (datetime.now() - timedelta(1)).strftime('%d-%m-%Y')
@@ -173,6 +187,9 @@ def dates_news():
       cursor.execute("SELECT * FROM news_keys WHERE tarih = %s",(numInt,))
       goster = 1
       data = sorted(cursor.fetchall(),key=lambda x: x[5],reverse=True)
+      data = list(map(list,data))
+      for y in data:
+        y[5] = tarihal(str(y[5]))
       try:
        result = calculate_it(numInt.lower())
       except KeyError:
@@ -195,21 +212,54 @@ def rapor():
 
     
     
-    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Sözcü" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Sözcü" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
     res1=cursor.fetchall()
-    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Hürriyet" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Hürriyet" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
     res2 = cursor.fetchall()
-    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Milliyet" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Milliyet" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
     res3 = cursor.fetchall()
-    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Habertürk" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Habertürk" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
     res4 = cursor.fetchall()
-    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Posta" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Posta" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
     res5 = cursor.fetchall()
-    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Webtekno" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori;""")
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Webtekno" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
     res6 = cursor.fetchall()
-    cursor.execute("""SELECT site as Haber_Kaynağı, COUNT(*) AS Haber_Miktarı FROM news_keys WHERE tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) GROUP BY site;""")
+    cursor.execute("""SELECT site as Haber_Kaynağı, COUNT(*) AS Haber_Miktarı FROM news_keys WHERE tarih >= DATE_ADD(CURDATE(), INTERVAL -7 DAY) GROUP BY site ORDER by Haber_Miktarı DESC;""")
     res7 = cursor.fetchall()
     return render_template('rapor.html',res1 = res1,res2 = res2,res3 = res3,res4 = res4,res5 = res5,res6 = res6,res7=res7)
+
+
+
+
+@app.route('/rapor1', methods =["GET","POST"])
+def rapor1():
+    #num = request.form['rapor1']
+
+
+    cnx = mysql.connector.connect(
+    user='root',
+    password='',
+    host='localhost',
+    database='mysql')
+    cursor = cnx.cursor()
+
+    
+    
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Sözcü" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -30 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
+    res1=cursor.fetchall()
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Hürriyet" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -30 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
+    res2 = cursor.fetchall()
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Milliyet" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -30 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
+    res3 = cursor.fetchall()
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Habertürk" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -30 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
+    res4 = cursor.fetchall()
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Posta" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -30 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
+    res5 = cursor.fetchall()
+    cursor.execute("""SELECT kategori AS Kategori, COUNT(link) AS Haber_Sayısı FROM news_keys WHERE site="Webtekno" AND tarih >= DATE_ADD(CURDATE(), INTERVAL -30 DAY) 	GROUP BY kategori ORDER by Haber_Sayısı DESC;""")
+    res6 = cursor.fetchall()
+    cursor.execute("""SELECT site as Haber_Kaynağı, COUNT(*) AS Haber_Miktarı FROM news_keys WHERE tarih >= DATE_ADD(CURDATE(), INTERVAL -30 DAY) GROUP BY site ORDER by Haber_Miktarı DESC;""")
+    res7 = cursor.fetchall()
+    return render_template('rapor1.html',res1 = res1,res2 = res2,res3 = res3,res4 = res4,res5 = res5,res6 = res6,res7=res7)
 
 
 if __name__ == "__main__":
