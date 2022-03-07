@@ -158,12 +158,10 @@
                   <form method="post" action="/update">
             {% for eleman in Variable %}
                     <li  style="cursor: pointer" class="list-group-item d-flex p-0 border-0"> 
-                      <input class="form-check-input radioCheck" name="b" type="checkbox" id="{{eleman}}" name="{{eleman}}" value="{{eleman}}" onclick="check(this);">
-                      <label class="form-check-label" >{{eleman}}</label><br><br>
+                      <button value="{{eleman}}" id="{{eleman}}" class="nav-link btn btn-outline-success" type="submit" name="b" style="border: none;">{{eleman}}</button>
                     </li>
           
              {% endfor %}
-             <button class="btn btn-primary" type="submit"> Ara</button>
             </form>
                 </ul>
             </div>

@@ -7,6 +7,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="static/styles/result.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery.fancytable/dist/fancyTable.min.js"></script>
+<script src="../static/fancyTable.js"></script>
+<link rel="stylesheet" href="static/styles/tableCss.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -155,12 +158,10 @@
                   <form method="post" action="/update">
             {% for eleman in Variable %}
                     <li  style="cursor: pointer" class="list-group-item d-flex p-0 border-0"> 
-                      <input class="form-check-input radioCheck" name="b" type="checkbox" id="{{eleman}}" name="{{eleman}}" value="{{eleman}}" onclick="check(this);">
-                      <label class="form-check-label" >{{eleman}}</label><br><br>
+                      <button value="{{eleman}}" id="{{eleman}}" class="nav-link btn btn-outline-success" type="submit" name="b" style="border: none;">{{eleman}}</button>
                     </li>
           
              {% endfor %}
-             <button class="btn btn-primary" type="submit"> Ara</button>
             </form>
                 </ul>
             </div>
@@ -360,7 +361,11 @@ function check(input)
             $(targetBox).show('slow');
         });
     });
-    $('.datepicker').datepicker();
+    $(".fancyTable").fancyTable({
+        pagination: true,
+        perPage: 20,
+        globalSearch: true,
+    });
     </script>
 </body>
 </html>
