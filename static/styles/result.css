@@ -5,4 +5,10 @@
 .onerilenler{
     float: right;
 }
+table tr{ page-break-before: always; }
+h5 {
+    page-break-inside:avoid;
+    page-break-before: always; 
+}
+table{ page-break-inside: auto }
 @import url('http://getbootstrap.com/2.3.2/assets/css/bootstrap.css');
