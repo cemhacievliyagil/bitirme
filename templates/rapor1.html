@@ -18,7 +18,7 @@
     <div class="p-2">
         <div class="row">
           <div class="col align-self-start">
-        <a href="#"><i class="fa-solid fa-circle-arrow-left fa-2xl" id="back"></i></a>
+        <a href="#"><i onclick="history.back()" class="fa-solid fa-circle-arrow-left fa-2xl" id="back"></i></a>
           </div>
         </div>
     </div>
@@ -173,9 +173,6 @@
     </div>
 </body>
 <script type="text/javascript">
-    document.getElementById("back").onclick = function() {
-      location.href = "/";
-    };
 
     function createPDF() {
         var sTable = document.getElementById('tab').innerHTML;

@@ -112,7 +112,7 @@ CIA	Central Intelligence Agency (Merkezi Haberalma Örgütü)
 CIF, cif	Cost, insurance, freight (Maliyet, sigorta, navlun)
 cm	santimetre
 CMUK	Ceza Muhakemeleri Usul Kanunu
-CPU	Central Processing Unit (bilgisayarda Ana İşlem Birimi)
+CPU	Central Processing Unit
 CRR	Cemal Reşit Rey Konser Salonu
 CS	Cumhuriyet Savcısı
 CSO	Cumhurbaşkanlığı Senfoni Orkestrası

@@ -22,13 +22,15 @@ def my_form_post():
     num = request.form['a']
     kategoriler = ['Gündem', 'Siyaset','Ekonomi','Dünya','Magazin','Otomobil','Teknoloji','Eğitim','Spor','Futbol','Basketbol', 'Kültür-Sanat', 'Yaşam', 'Sağlık', 'Bilim']
     goster= 0
+    deger =0
     print(num)
     numInt = num
     numInt1 = ""
     kisaltma = kisaltmalar()
     for x in kisaltma:
         if (numInt.upper() == x[0]):
-            numInt= x[1]
+            deger =1
+            numInt1= x[1]
     print(numInt)
     
     b = (datetime.now().strftime('%d-%m-%Y'))
@@ -44,35 +46,67 @@ def my_form_post():
     database='mysql')
     cursor = cnx.cursor()
 
-    if (numInt.capitalize() in kategoriler):
-        cursor.execute("SELECT * FROM news_keys WHERE kategori = %s ", (numInt,))
+    if (deger == 1):
+      cursor.execute("SELECT * FROM news_keys WHERE key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s OR key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s",(numInt,numInt,numInt,numInt,numInt,numInt.title(),numInt.title(),numInt.title(),numInt.title(),numInt.title()))
+      resx=cursor.fetchall()
+      cursor.execute("SELECT * FROM news_keys WHERE key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s OR key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s",(numInt1,numInt1,numInt1,numInt1,numInt1,numInt1.title(),numInt1.title(),numInt1.title(),numInt1.title(),numInt1.title()))
+      resy=cursor.fetchall()
+      if((len(resx) == 0) and (len(resy) == 0)):
+       data = [["","","","","Bulunamadı!"]]
+       result = [""]
+       goster = 0
+      else:
+        data = []
+        goster = 1
+        data1 = sorted(resx,key=lambda x: x[5],reverse=True)
+        data2 = sorted(resy,key=lambda x: x[5],reverse=True)
+        data1 = list(map(list,data1))
+        data2 = list(map(list,data2))
+
+        if(len(data1) != 0):
+          for i in data1:
+           data.append(i)
+        if(len(data2) != 0):
+          for y in data2:
+           data.append(y)
+        for y in data:
+          y[5] = tarihal(str(y[5]))
+        try:
+          result = calculate_it(numInt.lower())
+        except KeyError:
+          result = ["Bulunamadı!"]
+    else:
+
+
+      if (numInt.capitalize() in kategoriler):
+          cursor.execute("SELECT * FROM news_keys WHERE kategori = %s ", (numInt,))
+          data = sorted(cursor.fetchall(),key=lambda x: x[5],reverse=True)
+          data = list(map(list,data))
+          for y in data:
+            y[5] = tarihal(str(y[5]))
+          goster = 1
+          try:
+           result = calculate_it(numInt.lower())
+          except KeyError:
+           result = [""]
+      else:
+       cursor.execute("SELECT * FROM news_keys WHERE key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s OR key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s",(numInt,numInt,numInt,numInt,numInt,numInt.title(),numInt.title(),numInt.title(),numInt.title(),numInt.title()))
+       res=cursor.fetchall()
+       if(len(res) == 0):
+         data = [["","","","","Bulunamadı!"]]
+         result = [""]
+         goster = 0
+       else:
+        cursor.execute("SELECT * FROM news_keys WHERE key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s OR key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s",(numInt,numInt,numInt,numInt,numInt,numInt.title(),numInt.title(),numInt.title(),numInt.title(),numInt.title()))
+        goster = 1
         data = sorted(cursor.fetchall(),key=lambda x: x[5],reverse=True)
         data = list(map(list,data))
         for y in data:
           y[5] = tarihal(str(y[5]))
-        goster = 1
         try:
          result = calculate_it(numInt.lower())
         except KeyError:
-         result = [""]
-    else:
-     cursor.execute("SELECT * FROM news_keys WHERE key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s OR key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s",(numInt,numInt,numInt,numInt,numInt,numInt.title(),numInt.title(),numInt.title(),numInt.title(),numInt.title()))
-     res=cursor.fetchall()
-     if(len(res) == 0):
-       data = [["","","","","Bulunamadı!"]]
-       result = [""]
-       goster = 0
-     else:
-      cursor.execute("SELECT * FROM news_keys WHERE key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s OR key1 = %s OR key2 = %s OR key3 = %s OR key4 = %s OR key5 = %s",(numInt,numInt,numInt,numInt,numInt,numInt.title(),numInt.title(),numInt.title(),numInt.title(),numInt.title()))
-      goster = 1
-      data = sorted(cursor.fetchall(),key=lambda x: x[5],reverse=True)
-      data = list(map(list,data))
-      for y in data:
-        y[5] = tarihal(str(y[5]))
-      try:
-       result = calculate_it(numInt.lower())
-      except KeyError:
-       result = ["Bulunamadı!"]
+         result = ["Bulunamadı!"]
     return render_template('result.html',data = data, Variable= result,show = goster,bugun = bugun,dun = dun)
 
 

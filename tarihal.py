@@ -2,6 +2,6 @@ from datetime import datetime,timedelta
 def tarihal(string):
   txt = datetime.strptime(string, "%Y-%m-%d").strftime("%d-%m-%Y")
   #tarih = datetime.fromisoformat(txt).date()
-  #print(txt)
+  print(txt)
   return (txt)
-#tarihal("2022-02-15")
+tarihal("2022-02-24")
